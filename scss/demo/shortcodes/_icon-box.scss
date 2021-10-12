@@ -1,0 +1,36 @@
+
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: icon-box.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Icon Box Styles
+-----------------------------------------------------------------*/
+
+
+.icon-box {
+	display: block;
+	
+	.icon-wrapper {
+		display: inline-block;
+		width: 3rem;
+		height: 3rem;
+		padding: 0.75rem;
+		border: 1px solid #292929;
+		transform: rotate(45deg);
+
+		i {
+			transform: rotate(315deg);
+			font-size: 1.25rem;
+			color: $white;
+		}
+	}
+
+	.icon-header {
+		color: $white;
+		font-weight: 500;
+		font-size: 0.75rem;
+	}
+}

@@ -1,0 +1,38 @@
+/*-----------------------------------------------------------------------------------
+
+	Shortcodes: timeline.scss
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+	Timeline Styles
+-----------------------------------------------------------------*/
+.event {
+    margin-bottom: 3rem;
+
+    .event-title {
+        font-weight: 600;
+        font-size: 2.5rem;
+        color: $white;
+    }
+
+    .event-thumbnail {
+        @include media-breakpoint-up(lg) {
+            margin-top: 5rem;
+        }
+    }
+
+    marquee {
+        font-family: $heading-font;
+        font-weight: 300;
+        font-size: 5.75rem;
+        color: #3c3c3c;
+        padding: 2rem 0;
+        z-index: -1;
+        @include media-breakpoint-up(lg) {
+            position: absolute;
+            left: 0;
+            margin-top: -1rem;
+        }
+    }
+}

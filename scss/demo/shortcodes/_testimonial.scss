@@ -1,0 +1,22 @@
+.testimonial {
+    .testimonial-image {
+        img {
+            width: auto;
+            height: auto;
+        }
+    }
+
+    .testimonial-title {
+        font-weight: 600;
+        font-size: 1rem;
+        background-color: $theme-color;
+        display: inline-block;
+    }
+
+    .testimonial-name {
+        font-weight: 500;
+        font-size: 0.75rem;
+        color: #8b8b8b;
+        text-transform: uppercase;
+    }
+}
